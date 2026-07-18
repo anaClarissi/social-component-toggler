@@ -1,0 +1,45 @@
+/*===================*/
+/*       GERALS      */
+/*===================*/
+
+:root {
+
+    /* Primary (gradiente) */
+    --primary-start: #a2a6f1;
+    --primary-end: #696ddd;
+    --primary-gradient: linear-gradient(90deg, var(--primary-start), var(--primary-end));
+
+    /* Neutros */
+    --blue-50: #f6f6fe;
+    --gray-650: #6d708d;
+    --gray-700: #494c5f;
+
+    --font-primary: 'Montserrat', Arial, Helvetica, sans-serif;
+
+}
+
+/*===================*/
+/*       GERALS      */
+/*===================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100dvh;
+    font-family: var(--font-primary);
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+
+h1, p {
+    margin: 0;
+}

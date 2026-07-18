@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pricing Component With Toggle">
+  <meta name="keywords" content="html, css, javascript, sass, bootstrap">
+  <meta name="author" content="Ana Clarissi">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+</head>
+
+<body data-plan="annual">
+
+  <header id="header">
+
+    <div class="container header-container">
+
+      <h1 class="title">Our Pricing</h1>
+
+      <div class="form-check form-switch">
+
+        <label class="form-check-label" for="switch">Annually</label>
+
+        <input class="form-check-input" type="checkbox" role="switch" id="switch">
+
+        <label class="form-check-label" for="switch">Monthly</label>
+
+      </div>
+      
+      
+      
+    </div>
+
+  </header>
+
+  <main id="main">
+    
+    <div class="container main-container">
+
+      <div class="card" id="card-basic">
+
+        <h2 class="title">Basic</h2>
+
+        <ul class="card-list">
+
+          <li class="card-item card-item-plan" id="plan-basic"></li>
+
+          <li class="card-item">500 GB Storage</li>
+
+          <li class="card-item">2 Users Allowed</li>
+
+          <li class="card-item">Send up to 3 GB</li>
+          
+        </ul>
+
+        <button type="button" class="btn btn-learn-more" id="btn-basic">Learn More</button>
+
+      </div>
+
+      <div class="card" id="card-professional">
+
+        <h2 class="title">Professional</h2>
+
+        <ul class="card-list">
+
+          <li class="card-item card-item-plan" id="plan-professional"></li>
+
+          <li class="card-item">1 TB Storage</li>
+
+          <li class="card-item">5 Users Allowed</li>
+          
+          <li class="card-item">Send up to 10 GB</li>
+
+        </ul>
+
+        <button type="button" class="btn btn-learn-more" id="btn-professional">Learn More</button>
+
+      </div>
+      
+      <div class="card" id="card-master">
+
+        <h2 class="title">Master</h2>
+
+        <ul class="card-list">
+
+          <li class="card-item card-item-plan" id="plan-master"></li>
+
+          <li class="card-item">2 TB Storage</li>
+
+          <li class="card-item">10 Users Allowed</li>
+
+          <li class="card-item">Send up to 20 GB</li>
+
+        </ul>
+
+        <button type="button" class="btn btn-learn-more" id="btn-master">Learn More</button>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script type="module" src="/src/js/main.js"></script>
+  
+</body>
+</html>
