@@ -1,106 +1,134 @@
-# Frontend Mentor - Pricing component with toggle
+<h1 align="center">💳 Pricing Component with Toggle</h1>
 
-![Design preview for the Pricing component with toggle coding challenge](preview.jpg)
+<p align="center">
+  Solução para o desafio <strong>Pricing Component with Toggle</strong> do
+  <a href="https://www.frontendmentor.io">Frontend Mentor</a>.
+</p>
 
-## Welcome! 👋
+<p align="center">
+  <a href="https://social-component-toggler.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_Live_Preview-6C6FE0?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Preview" />
+  </a>
+  <a href="https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC">
+    <img src="https://img.shields.io/badge/📄_Desafio-Frontend_Mentor-3F54A3?style=for-the-badge&logo=frontendmentor&logoColor=white" alt="Desafio" />
+  </a>
+  <a href="https://www.frontendmentor.io/profile/anaClarissi">
+    <img src="https://img.shields.io/badge/👤_Perfil-Frontend_Mentor-2E3450?style=for-the-badge&logo=frontendmentor&logoColor=white" alt="Perfil Frontend Mentor" />
+  </a>
+  <a href="https://www.linkedin.com/in/anaclarissi">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 
-Thanks for checking out this front-end coding challenge.
+<p align="center">
+  <img src="./preview.jpg" alt="Preview do projeto Pricing Component with Toggle" width="700">
+</p>
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+---
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+## 📋 Índice
 
-## The challenge
+- [Visão geral](#-visão-geral)
+- [O desafio](#-o-desafio)
+- [Screenshot](#-screenshot)
+- [Links](#-links)
+- [Tecnologias utilizadas](#️-tecnologias-utilizadas)
+- [Funcionalidades](#-funcionalidades)
+- [O que aprendi](#-o-que-aprendi)
+- [Melhorias futuras](#-melhorias-futuras)
+- [Autora](#-autora)
 
-Your challenge is to build out this pricing component and get it looking as close to the design as possible.
+---
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## 🔎 Visão geral
 
-Your users should be able to:
+Componente de precificação com um toggle (switch) que alterna os valores dos planos entre **anual** e **mensal**, construído a partir do design fornecido pelo Frontend Mentor, seguindo o style-guide oficial de cores, tipografia e responsividade.
 
-- View the optimal layout for the component depending on their device's screen size
-- Control the toggle with both their mouse/trackpad and their keyboard
-- **Bonus**: Complete the challenge with just HTML and CSS
+## 🎯 O desafio
 
-### Want some support on the challenge? 
+Os usuários devem ser capazes de:
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- ✅ Visualizar o layout ideal do componente de acordo com o tamanho da tela do dispositivo
+- ✅ Controlar o toggle tanto pelo mouse/trackpad quanto pelo teclado
+- ✅ Ver os valores dos planos atualizados dinamicamente ao alternar entre anual/mensal
 
-## Where to find everything
+## 📸 Screenshot
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+<p align="center">
+  <img src="./preview.jpg" alt="Screenshot do componente" width="600">
+</p>
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+## 🔗 Links
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+| | |
+|---|---|
+| 🌐 **Live site** | [social-component-toggler.vercel.app](https://social-component-toggler.vercel.app/) |
+| 🧩 **Desafio original** | [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) |
+| 👤 **Meu perfil FEM** | [frontendmentor.io/profile/anaClarissi](https://www.frontendmentor.io/profile/anaClarissi) |
+| 💼 **LinkedIn** | [linkedin.com/in/anaclarissi](https://www.linkedin.com/in/anaclarissi) |
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## 🛠️ Tecnologias utilizadas
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
-## Using AI coding assistants
+- **HTML5 semântico** — estrutura acessível com `header`, `main` e uso correto de `label`/`input`
+- **CSS3 + Sass** — variáveis customizadas para cores e gradientes, Grid e Flexbox para o layout responsivo
+- **Bootstrap** — componentes base (`.card`, `.btn`, `.form-switch`) como ponto de partida, customizados via CSS próprio
+- **JavaScript puro (Vanilla JS)** — lógica do toggle e atualização dinâmica dos valores dos planos
+- **Vite** — bundler para desenvolvimento e build do projeto
+- **Mobile-first workflow** com breakpoint dedicado para desktop (`min-width: 60em`)
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+## ⚙️ Funcionalidades
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+- 🔄 Alternância entre planos **anual** e **mensal** via `data-plan` no `<body>`
+- ⌨️ Toggle 100% acessível por teclado (`Tab` + `Space`), usando `<input type="checkbox" role="switch">` nativo
+- 📱 Layout responsivo: cards empilhados no mobile → grid de 3 colunas no desktop, com o plano "Professional" em destaque
+- 🎨 Gradientes e cores fiéis ao style-guide oficial do desafio
+- 🌀 Elementos decorativos de fundo posicionados de forma diferente entre mobile e desktop
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+## 💡 O que aprendi
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+Durante este desafio, pratiquei:
 
-## Building your project
+```js
+// Atualização dinâmica dos valores com base no estado do toggle
+function handlePlan() {
+  const bodyDataPlan = swtichToggle.checked ? "monthly" : "annual";
+  body.setAttribute("data-plan", bodyDataPlan);
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+  document.querySelectorAll(".card-item-plan").forEach((item) => {
+    const planName = item.querySelector(".plan-value").id;
+    item.querySelector(".plan-value").textContent = plan[bodyDataPlan][planName];
+  });
+}
+```
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+- Uso de **atributos `data-*`** no `body` como fonte única de verdade para o estado da UI
+- Construção de **grids responsivos** combinando Bootstrap com Grid/Flexbox customizados
+- Posicionamento preciso de **múltiplos backgrounds** (`background-image` em camadas) para reproduzir os elementos decorativos do design
+- Boas práticas de **acessibilidade** em controles do tipo switch/toggle
 
-## Deploying your project
+## 🚀 Melhorias futuras
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+- [ ] Adicionar animação de transição nos valores ao trocar de plano
+- [ ] Extrair a lógica de dados dos planos para um arquivo JSON separado
+- [ ] Escrever testes automatizados para a função `handlePlan()`
+- [ ] Avaliar dark mode
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+## 👩‍💻 Autora
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+**Ana Clarissi**
 
-## Create a custom `README.md`
+- Frontend Mentor — [@anaClarissi](https://www.frontendmentor.io/profile/anaClarissi)
+- LinkedIn — [anaclarissi](https://www.linkedin.com/in/anaclarissi)
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+---
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+<p align="center">Feito com 💜 por Ana Clarissi</p>
