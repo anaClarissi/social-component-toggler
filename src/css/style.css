@@ -216,3 +216,69 @@ p {
     color: var(--primary-end);
     background: white;
 }
+
+/*===========================*/
+/*     ---- DESKTOP ----     */
+/*===========================*/
+
+@media (min-width: 60em) {
+
+    /*===================*/
+    /*       GERALS      */
+    /*===================*/
+
+    body {
+        background: url("/src/assets/images/bg-top.svg") no-repeat, url('/src/assets/images/bg-bottom.svg') no-repeat;
+        background-size: 40%, 30%;
+        background-position-y: 0, bottom;
+        background-position-x: 100%, left;
+        gap: clamp(2.000rem, calc(-6.000rem + 10vw), 3.000rem);
+    }
+
+    /*===================*/
+    /*       HEADER      */
+    /*===================*/
+    
+    #header {
+        flex-grow: 1;
+    }
+
+    .header-container {
+        padding: clamp(4.000rem, calc(-12.000rem + 20vw), 6.000rem) 1rem 1rem;
+    }
+
+    /*===================*/
+    /*        MAIN       */
+    /*===================*/
+
+    #main {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-grow: 5;
+    }
+
+    .main-container {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+        max-width: 70rem;
+    }
+
+    .card:nth-child(1) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .card:nth-child(2) {
+        transform: scale(1.15);
+        z-index: 10;
+    }
+
+    .card:nth-child(3) {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+}
