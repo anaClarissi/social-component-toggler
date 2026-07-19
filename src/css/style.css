@@ -1,5 +1,5 @@
 /*===================*/
-/*       GERALS      */
+/*     VARIABELS     */
 /*===================*/
 
 :root {
@@ -100,6 +100,13 @@ p {
     width: 3.65rem;
     background-image: var(--primary-gradient);
     border: none;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+}
+
+#switch:hover,
+#switch:focus-within {
+    opacity: 0.7;
 }
 
 #switch::before {
@@ -114,6 +121,7 @@ p {
     height: var(--size);
     border-radius: 50%;
     background-color: white;
+    transition: transform .2s ease-in-out;
 }
 
 #switch:checked::before {
@@ -209,13 +217,57 @@ p {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: white;
-    border: none;
+    border: 1px solid transparent;
     background-image: var(--primary-gradient);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btn-learn-more:hover,
+.btn-learn-more:focus {
+    color: var(--primary-end);
+    border-color: var(--gray-700);
+    background: transparent;
 }
 
 .card:nth-child(2) .btn-learn-more {
     color: var(--primary-end);
     background: white;
+}
+
+.card:nth-child(2) .btn-learn-more:hover,
+.card:nth-child(2) .btn-learn-more:focus {
+    color: white;
+    border-color: white;
+    background: transparent;
+}
+
+/*===========================*/
+/*   ---- ACESSIBILITY ----  */
+/*===========================*/
+
+@media (prefers-reduced-motion: reduce) {
+    
+    /*===================*/
+    /*       HEADER      */
+    /*===================*/
+
+    #switch {
+        transition: none;
+    }
+
+    #switch::before {
+        transition: none;
+    }
+
+    /*===================*/
+    /*        MAIN       */
+    /*===================*/
+
+    .btn-learn-more {
+        transition: none;
+    }
+
 }
 
 /*===========================*/
